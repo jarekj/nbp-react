@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "NBP Currency Exchange",
+  "version": "1.0",
+  "description": "Check currency exchange rates from the National Bank of Poland",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://api.nbp.pl/*"
+  ]
+}
